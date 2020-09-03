@@ -19,7 +19,7 @@ body {
     --footer-height: 25px;
     
     font-family: 'Titillium Web', sans-serif;
-    background-color: var(--color2);
+    background-color: #6F8AB7;
 }
 
 main {
@@ -47,7 +47,7 @@ section {
 header {
     display: flex;
     justify-content: flex-end;
-    background-color: var(--color3);
+    background-color: #CAE5FF;
     height: var(--header-height);
     box-shadow: var(--shadow);
 }
@@ -55,7 +55,7 @@ header {
 footer {
     display: flex;
     justify-content: flex-end;
-    background-color: var(--color3);
+    background-color: #CAE5FF;
     box-shadow: var(--shadow);
 }
 
@@ -75,6 +75,19 @@ h2 {
 
 .main-logo {
     animation: pulse 5s infinite ease-in-out;
+}
+
+button {
+    color: ##6F8AB7;
+    background: #CAE5FF;
+    border-radius: 10%;
+    transition: all .5s ease-in-out;
+    margin: 10px;
+}
+
+button:hover {
+    background: #6F8AB7;
+    color: #CAE5FF;
 }
 
 
